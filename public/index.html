@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda y Noticias</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- 🔥 BARRA DE NAVEGACIÓN -->
+    <header>
+        <nav>
+            <button onclick="scrollToSection('productos')">🛒 Scraping</button>
+            <button onclick="scrollToSection('mapa')">📍 Ubicación</button>
+            <button onclick="scrollToSection('noticias')">📰 Noticias</button>
+        </nav>
+    </header>
+
+    <!-- 🔥 SECCIÓN DE PRODUCTOS -->
+    <h1>🛒 Productos Disponibles</h1>
+    <div id="productos" class="container">
+        <!-- Los productos se cargan aquí dinámicamente -->
+    </div>
+
+    <!-- 🔥 SECCIÓN DE UBICACIÓN -->
+    <div id="mapa" class="mapa">
+        <h2>📍 Ubicación de la tienda</h2>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.7861824925826!2d-1.8549688542362248!3d38.99737601047153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd665fb8cd57ae37%3A0xd3c5bf1046ca48d7!2sCatedral%20de%20San%20Juan%20Bautista%20de%20Albacete!5e0!3m2!1ses!2ses!4v1739906480962!5m2!1ses!2ses"
+            allowfullscreen loading="lazy">
+        </iframe>
+    </div>
+
+    <!-- 🔥 SECCIÓN DE NOTICIAS -->
+    <div id="noticias" class="news-section">
+        <h1>📰 Noticias Recientes</h1>
+        <h2>Últimas Noticias sobre tecnología (RSS)</h2>
+        <div class="news-container"></div>
+        <h2>🔍 Noticias de España (ATOM)</h2>
+        <div class="news-container"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

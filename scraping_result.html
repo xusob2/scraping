@@ -1,0 +1,753 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resultados del Scraping</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffe6e6;
+            margin: 50px;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            width: 300px;
+            background-color: #fff;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .mapa {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+<div class="banner">
+    <h1>Bienvenido a nuestra tienda de zapatillas</h1>
+    <p>Encuentra las mejores ofertas en zapatillas deportivas y casuales.</p>
+</div>
+
+<h1>Productos disponibles:</h1>
+<div class="container">
+
+            <div class="card">
+                <img src="https://www.izapatillas.com/33663-home_default/new-balance-mujer-running-w411lc3-negra-y-morada.jpg" alt="Imagen">
+                <p><strong>45,00 €</strong></p>
+                <p>Zapatilla New Balance Running Mujer
+Marca: New Bal...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30166-home_default/skechers-skech-lite-149991wbk.jpg" alt="Imagen">
+                <p><strong>48,00 €</strong></p>
+                <p>Skechers Skech-Lite Mujer
+Tallas: 36.5-37-38-38.5-...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36636-home_default/jhayber-mujer-chetila-mujer-camel-zs61537-57.jpg" alt="Imagen">
+                <p><strong>36,00 €</strong></p>
+                <p>Zapatillas J´hayber Mujer Camel
+Marca:J´hayber Ref...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34845-home_default/skechers-eden-lx-top-beaming-glory-blanca-piel-185016wtgd.jpg" alt="Imagen">
+                <p><strong>54,60 €</strong></p>
+                <p>SKECHERS ZAPATILLA MUJER
+Modelo y Referencia: Eden...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/27735-home_default/puma-shuffle-mujer-375688-01-blanca.jpg" alt="Imagen">
+                <p><strong>39,00 €</strong></p>
+                <p>Puma Shuffle Mujer Blanca
+Genero: MujerTipo: Zapat...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35495-home_default/new-balance-mujer-blanca-gr530gb.jpg" alt="Imagen">
+                <p><strong>68,00 €</strong></p>
+                <p>Nuevas New Balance 530
+Marca: New BalanceModelo: G...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34080-home_default/new-balance-mr530ck-mujer-gris.jpg" alt="Imagen">
+                <p><strong>96,00 €</strong></p>
+                <p>New Balace MR530CK Mujer
+Marca:New BalanceGenero:M...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33646-home_default/skechers-go-walk-flex-grand-entrance-slip-ins-mujer-124975nvw-azul-marino.jpg" alt="Imagen">
+                <p><strong>59,20 €</strong></p>
+                <p>Zapatilla Skechers Slip-ins Mujer Azul Marino 1249...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33029-home_default/converse-bota-plataforma-junior-all-star-a02485c-negras-piel.jpg" alt="Imagen">
+                <p><strong>54,60 €</strong></p>
+                <p>Bota Plataforma Converse Chuck Taylor All Star Muj...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/20791-home_default/converse-ctas-lugged-hi-bota-plataforma-565901c-negra.jpg" alt="Imagen">
+                <p><strong>69,60 €</strong></p>
+                <p>CONVERSE
+CONVERSE CTAS LUGGED HI BOTA PLATAFORMA 5...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35027-home_default/skechers-uno-stand-on-air-mujer-73690w-blanca-piel.jpg" alt="Imagen">
+                <p><strong>69,30 €</strong></p>
+                <p>SKECHERS ZAPATILLA MUJER
+Modelo:Uno Stand On Air -...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28190-home_default/converse-all-court-ox-zapatilla-unisex-a00435c-blancas-y-grises-piel.jpg" alt="Imagen">
+                <p><strong>48,75 €</strong></p>
+                <p>CONVERSE
+CONVERSE ALL COURT OX ZAPATILLA UNISEX A0...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/24272-home_default/zapatilla-mujer-converse-all-star-ox-navy-m9697c.jpg" alt="Imagen">
+                <p><strong>54,40 €</strong></p>
+                <p>CONVERSE
+Zapatilla Converse All Star OX M9697C Azu...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30867-home_default/zapatilla-munich-dash-women-166-mujer-4150166-blanca.jpg" alt="Imagen">
+                <p><strong>64,00 €</strong></p>
+                <p>Zapatilla Munich Dash Women Mujer
+Tipo: ZapatillaM...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34238-home_default/zapatilla-skechers-mujer-bobs-sport-squad-negra-117209bbk.jpg" alt="Imagen">
+                <p><strong>52,50 €</strong></p>
+                <p>Zapatillas Skechers  Negra Mujer
+Módelo y Color: B...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28946-home_default/zapatilla-munich-versus-wmn-32-mujer-4173032-animal.jpg" alt="Imagen">
+                <p><strong>63,75 €</strong></p>
+                <p>Zapatilla Munich Versus  Mujer
+Tipo: ZapatillaMarc...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34834-home_default/zapatilla-skechers-og-85-gold-gurl-amarilla-111yel.jpg" alt="Imagen">
+                <p><strong>52,50 €</strong></p>
+                <p>Zapatilla Skechers Mujer Amarilla Casual 
+Marca: S...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/29478-home_default/converse-all-court-ox-zapatilla-unisex-567088c-negras-piel.jpg" alt="Imagen">
+                <p><strong>52,00 €</strong></p>
+                <p>CONVERSE
+CONVERSE ALL COURT OX ZAPATILLA  168785C ...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30959-home_default/puma-karmen-mid-bota-plataforma-mujer-385857-04-negra.jpg" alt="Imagen">
+                <p><strong>68,00 €</strong></p>
+                <p>Puma Karmen Bota Plataforma Mujer Negra
+Genero: Mu...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/24536-home_default/converse-chuk-taylor-all-star-lift-hi-bota-plataforma-560845c-negras.jpg" alt="Imagen">
+                <p><strong>69,90 €</strong></p>
+                <p>CONVERSE
+ CHUK TAYLOR ALL STAR LIFT HI BOTA PLATAF...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34639-home_default/skechers-mujer-ultra-flex-30-brilliant-path-sli-ins-149710wht-blanca.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>Zapatillas Skechers Ultra Flex 3.0 Mujer Blanca 14...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33135-home_default/converse-chuck-taylor-all-star-slate-sage-a00477c.jpg" alt="Imagen">
+                <p><strong>53,72 €</strong></p>
+                <p>Zapatillas Converse Chuck Taylor para Mujer 
+Lleva...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30890-home_default/jhayber-chemur-blanca-mujer-zs61232.jpg" alt="Imagen">
+                <p><strong>35,00 €</strong></p>
+                <p>J´HAYBER
+Marca: J´HayberReferencia: ZS61232Color: ...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33677-home_default/skechers-go-walk-joy-sea-wind-mujer-124661bbk-negra.jpg" alt="Imagen">
+                <p><strong>54,60 €</strong></p>
+                <p>Zapatilla Skechers Beige Triple Negra
+Marca y Mode...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32264-home_default/skechers-sandalias-arch-fit-119305tppk-beige-mujer.jpg" alt="Imagen">
+                <p><strong>54,60 €</strong></p>
+                <p>Sandalias Skechers Arch Fit Mujer Beige 119305/TPP...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30795-home_default/skechers-go-walk-arch-fit-motion-breeze-mujer-124409ltpk.jpg" alt="Imagen">
+                <p><strong>68,00 €</strong></p>
+                <p>Zapatillas Skechers Go Walk para Mujer Rosas
+
+Mode...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36675-home_default/skechers-slip-ins-go-walk-flex-grand-entry-mujer-124836bkw-negra.jpg" alt="Imagen">
+                <p><strong>60,00 €</strong></p>
+                <p>Zapatillas Skechers Slip-ins Mujer Negra 
+
+Modelo:...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33897-home_default/zapatillas-skechers-mujer-bobs-sport-squad-tough-talk-32504blsh-rosa.jpg" alt="Imagen">
+                <p><strong>48,00 €</strong></p>
+                <p>Zapatillas SKECHERS Mujer Rosa
+
+Marca: Skechers
+Co...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/27581-home_default/new-balance-zapatilla-mujer-wl373hg2-beige.jpg" alt="Imagen">
+                <p><strong>60,00 €</strong></p>
+                <p>NEW BALANCE 373 Mujer
+Marca: New BalanceGenero: Mu...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36319-home_default/adidas-vl-court-30-mujer-id8797-blanca.jpg" alt="Imagen">
+                <p><strong>60,00 €</strong></p>
+                <p>Nuevas Adidas Mujer  Outlet
+Marca: Adidas Tipo: Za...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32661-home_default/zapatillas-converse-bota-mujer-all-star-hi-a02781c-gris-oscuro.jpg" alt="Imagen">
+                <p><strong>60,00 €</strong></p>
+                <p>Bota Converse All Star Hi Mujer Gris Oscuro A02781...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33318-home_default/skechers-mujer-arch-fit-infinity-cool-149722gymt-gris-burdeos.jpg" alt="Imagen">
+                <p><strong>71,25 €</strong></p>
+                <p>Zapatillas Skechers Arch Fit Infinity para Mujer G...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28943-home_default/skechers-mujer-go-run-elevate-128319blk-negra.jpg" alt="Imagen">
+                <p><strong>57,60 €</strong></p>
+                <p>SKECHERS
+Modelo: Go Run Pulse Elevate Color: Negra...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/27038-home_default/zapatillas-converse-chuck-taylor-all-star-move-w-blanca-568498c.jpg" alt="Imagen">
+                <p><strong>63,75 €</strong></p>
+                <p>Zapatilla Converse Mujer 
+Moda: SportwearTipo: Zap...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28646-home_default/new-balance-junior-gc5740bp-gris.jpg" alt="Imagen">
+                <p><strong>57,00 €</strong></p>
+                <p>Zapatilla New Balance GC5740BP Gris
+Marca: New Bal...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35762-home_default/zapatilla-mujer-trail-joma-sima-lady-2401-negro.jpg" alt="Imagen">
+                <p><strong>60,00 €</strong></p>
+                <p>Trail Joma Mujer Negra Otoño - Invierno 2024
+Marca...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32223-home_default/skechers-mujer-flex-appeal-40-149303wht-blanca.jpg" alt="Imagen">
+                <p><strong>46,80 €</strong></p>
+                <p>Zapatillas Skechers Flex Appeal 4.0. Mujer Blanca ...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34642-home_default/skechers-mujer-air-meta-aired-out-150131wmlt-blanca.jpg" alt="Imagen">
+                <p><strong>64,60 €</strong></p>
+                <p>SKECHERS Mujer Air Meta 
+Modelo: Air Meta Aired Ou...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35042-home_default/new-balance-mujer-gris-y-azul-ws327gb.jpg" alt="Imagen">
+                <p><strong>104,00 €</strong></p>
+                <p>Nuevas New Balance WS327GB Gris Y Azul
+Marca y Ref...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/27452-home_default/joma-selene-lady-mujer-2113-rosa.jpg" alt="Imagen">
+                <p><strong>33,00 €</strong></p>
+                <p>Zapatilla JOMA Mujer Rosa
+Referencia: SELEMNE  LAD...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/29050-home_default/puma-wired-run-mujer-374214-01-negra.jpg" alt="Imagen">
+                <p><strong>39,00 €</strong></p>
+                <p>Puma Wired Run Mujer Negra
+Genero: MujerTipo: Zapa...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32245-home_default/zapatillas-skecher-go-run-mujer-128285-blanca-y-rosa.jpg" alt="Imagen">
+                <p><strong>53,90 €</strong></p>
+                <p>Zapatillas Skechers Go Run Consistent Mujer Runnin...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/29807-home_default/zapatilla-skechers-los-angeles-mujer-negra-corazones-155253bkgd.jpg" alt="Imagen">
+                <p><strong>64,80 €</strong></p>
+                <p>Zapatillas de Mujer Skechers con estampado de cora...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/26587-home_default/joma-cromo-lady-2113-rosa.jpg" alt="Imagen">
+                <p><strong>32,40 €</strong></p>
+                <p>JOMA Mujer Rosa
+Referencia: CROMO LADY 2103Genero:...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32271-home_default/skechers-sandalias-arch-fit-119305bbk-negra-mujer.jpg" alt="Imagen">
+                <p><strong>54,40 €</strong></p>
+                <p>Sandalias Skechers Arch Fit Mujer Negras 119305/BB...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/26995-home_default/zapatillas-converse-chuck-taylor-all-star-leather-eva-platform-negra-669709cc.jpg" alt="Imagen">
+                <p><strong>52,25 €</strong></p>
+                <p>Converse Piel Bajas Blanca
+Marca: ConverseReferenc...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32230-home_default/skechers-mujer-dynamight-laid-out-149756lvmt-morado.jpg" alt="Imagen">
+                <p><strong>52,00 €</strong></p>
+                <p>Zapatillas Skechers Dynamight Laid Out Mujer Morad...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35281-home_default/new-balance-zapatilla-mujer-wl373gw2-gris.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>New Balance 373 Mujer Clásico
+Marca: New Balance -...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33869-home_default/skechers-mujer-skech-air-dynamight-so-sleek-149659ntbk-blanco-natural.jpg" alt="Imagen">
+                <p><strong>52,00 €</strong></p>
+                <p>Zapatillas Skech-Air Dynamight-So Sleek Mujer 
+
+Ma...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33094-home_default/converse-unisex-chuck-taylor-all-star-amarillo-blanco-a00491c.jpg" alt="Imagen">
+                <p><strong>48,75 €</strong></p>
+                <p>Zapatilla Converse Media bota Amarilla
+Marca: Conv...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28086-home_default/sandalia-skecher-muer-d-lux-walker-119226slt.jpg" alt="Imagen">
+                <p><strong>48,00 €</strong></p>
+                <p>SANDALIAS SKECHERS Mujer Negras
+Modelo: D'lux Walk...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34924-home_default/jhayber-chelona-camel-mujer-running-zs61439-beige.jpg" alt="Imagen">
+                <p><strong>32,00 €</strong></p>
+                <p>Zapatilla J´Hayber Mujer BEIGE 
+Genero: MujerTipo:...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/31554-home_default/sandalias-deportivas-jhayber-mujer-oelsa-azul-marino-zs51302-37.jpg" alt="Imagen">
+                <p><strong>42,36 €</strong></p>
+                <p>Sandalias J´hayber Oelsa Mujer Azul Marino ZS51302...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32642-home_default/converse-bota-mujer-all-star-hi-a00784c-naranja.jpg" alt="Imagen">
+                <p><strong>60,00 €</strong></p>
+                <p>Bota Converse All Star Hi Mujer Naranja A00784C
+
+M...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32310-home_default/skechers-sandalias-arch-fit-119305cclv-lavanda-mujer.jpg" alt="Imagen">
+                <p><strong>54,60 €</strong></p>
+                <p>SANDALIAS SKECHERS MUJER
+
+Temporada: Primavera-Ver...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33771-home_default/zapatilla-munich-dash-sky-13-mujer-1699013-blanca-y-beige.jpg" alt="Imagen">
+                <p><strong>64,00 €</strong></p>
+                <p>Zapatilla Munich Dash Sky Mujer
+Tipo: ZapatillaMar...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36239-home_default/skechers-dlux-walker-20-mujer-150106wsl.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>Zapatillas Skechers D'Lux Walker 2.0 
+Marca:Skeche...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28819-home_default/zapatilla-baloncesto-nike-precision-5-negra-dd9535-001.jpg" alt="Imagen">
+                <p><strong>49,00 €</strong></p>
+                <p>Zapatillas de baloncesto Nike Precisión
+Marca: Nik...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33844-home_default/new-balance-negra-ms237ga-mujer-hombre-negra.jpg" alt="Imagen">
+                <p><strong>75,00 €</strong></p>
+                <p>Nuevas New Balance 237
+Marca: New BalanceModelo: M...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28456-home_default/skechers-mujer-arch-fit-infinity-149057-bkrg-mujer-negro.jpg" alt="Imagen">
+                <p><strong>69,35 €</strong></p>
+                <p>Zapatilla SKECHERS Mujer
+Modelo: Arch Fit Sunny Ou...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28800-home_default/zapatillas-skechers-bobs-sport-squad-mujer-blanca-117209ofwt.jpg" alt="Imagen">
+                <p><strong>52,50 €</strong></p>
+                <p>Zapatillas Skechers  Blanca Mujer
+Módelo: Bobs Spo...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/26535-home_default/zapatillas-skechers-air-dynamight-w-negras-149660bkrg.jpg" alt="Imagen">
+                <p><strong>49,00 €</strong></p>
+                <p>Zapatillas Skechers Mujer 
+Marca: SkechersTipo: Za...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34154-home_default/zapatilla-training-pwr-frame-tr-3-mujer.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>Zapatilla Puma Mujer PWR FRAME TR 3
+Marca y Tipo:P...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35298-home_default/new-balance-mujer-mr530aa-beige.jpg" alt="Imagen">
+                <p><strong>96,00 €</strong></p>
+                <p>New Balace MR530AA Mujer
+Marca y Referencia:New Ba...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35315-home_default/zapatillas-skechers-slip-ins-go-walk-flex-grand-entry-mujer-124836nvy-azul-marino.jpg" alt="Imagen">
+                <p><strong>54,40 €</strong></p>
+                <p>Zapatillas Skechers Slip-Ins Mujer Azul Marino 124...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34562-home_default/zapatilla-puma-azul-wired-run-pure-junior-390847-03.jpg" alt="Imagen">
+                <p><strong>36,00 €</strong></p>
+                <p>Zapatilla Puma Azul Marino Wired 
+Marca y Referenc...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36077-home_default/skechers-uno-shimmer-away-mujer-155196nat-beige-piel.jpg" alt="Imagen">
+                <p><strong>62,40 €</strong></p>
+                <p>SKECHERS ZAPATILLA MUJER
+Modelo:Uno Shimmer Away -...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34461-home_default/new-balance-mujer-blanca-bbw80wms-casual.jpg" alt="Imagen">
+                <p><strong>78,00 €</strong></p>
+                <p>Zapatillas Mujer Casual Blanca 
+Marca:New Balance ...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30991-home_default/skechers-mujer-max-cushioning-elite-128575wbk-blanca.jpg" alt="Imagen">
+                <p><strong>75,00 €</strong></p>
+                <p>SKECHERS
+Modelo: Max Cushioning EliteColor: Blanco...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30239-home_default/new-balance-mujer-dynasoft-nitrel-v5-wtntrlg5.jpg" alt="Imagen">
+                <p><strong>78,00 €</strong></p>
+                <p>New Balance Mujer
+Color: Gris / Azul /Rojo / Amari...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/26149-home_default/saucony-jazz-81-mujer-s60613-7-gris-y-azul.jpg" alt="Imagen">
+                <p><strong>79,50 €</strong></p>
+                <p>JAZZ 81 Saucony Mujer
+Color: Gris y Azul
+Referenci...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35477-home_default/skechers-mujer-ultra-flex-30-brilliant-path-sli-ins-149710tpe-marron-clarito.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>Zapatillas Skechers Ultra Flex 3.0 Mujer Marrón Cl...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/29300-home_default/puma-aviator-profoam-sky-running-mujer-376615-01-negra.jpg" alt="Imagen">
+                <p><strong>63,00 €</strong></p>
+                <p>Puma Aviator Profoam Sky Mujer Negra
+Genero: Unise...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/31676-home_default/puma-carina-20-tape-mujer-385850-02-negra.jpg" alt="Imagen">
+                <p><strong>49,00 €</strong></p>
+                <p>Zapatillas Puma Carina 2.0. Tape Mujer Negra
+
+Mode...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30444-home_default/zapatilla-mujer-blanca-rodio-2022-rrodlw2022.jpg" alt="Imagen">
+                <p><strong>32,80 €</strong></p>
+                <p>Zapatillas de Joma Rodio Mujer Blanca 2022
+Marca: ...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/21687-home_default/nike-team-hustle-d-9-gs-nino-aq4224-0012-negras.jpg" alt="Imagen">
+                <p><strong>45,00 €</strong></p>
+                <p>NIKE TEAM HUSTLE D 9 GS NIÑO AQ4224 100 BLANCAS</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/29485-home_default/converse-el-distrito-20-ox-167012c-blanca-piel.jpg" alt="Imagen">
+                <p><strong>35,20 €</strong></p>
+                <p>CONVERSE Junior Cordón Elástico
+Referencia: 669577...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/27643-home_default/puma-wired-run-slipon-mujer-382299-05-rosa.jpg" alt="Imagen">
+                <p><strong>45,00 €</strong></p>
+                <p>Puma Wired Run Slipon Mujer Blanca
+Genero: MujerTi...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30108-home_default/puma-karmen-l-zapatilla-plataforma-mujer-384615-02-blanca.jpg" alt="Imagen">
+                <p><strong>52,50 €</strong></p>
+                <p>Puma Karmen Zapatilla Plataforma Mujer Blanca
+Gene...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34458-home_default/new-balance-mujer-dynasoft-nitrel-negra-wtntrrb5.jpg" alt="Imagen">
+                <p><strong>78,00 €</strong></p>
+                <p>New Balance Mujer
+Color: Negra  / Morado /Rojo / A...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36186-home_default/skechers-uno-wedge-hi-steps-mujer-177520bbk-negra-piel.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>SKECHERS ZAPATILLA MUJER
+Modelo:Uno Wedge hi Steps...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34632-home_default/skechers-mujer-ultra-flex-30-brilliant-path-sli-ins-149710ltpk-rosa.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>Zapatillas Skechers Ultra Flex 3.0 Mujer Rosa 1497...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34919-home_default/new-balance-mujer-mr530aa1-blanca.jpg" alt="Imagen">
+                <p><strong>96,00 €</strong></p>
+                <p>New Balace MR530AA1 Mujer
+Marca y Referencia:New B...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/26446-home_default/jhayber-melina-blue-mujer-trekking-zs52366-azul.jpg" alt="Imagen">
+                <p><strong>34,93 €</strong></p>
+                <p>Zapatillas J´hayber Mujer
+Marca: J´Hayber - Refere...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/33531-home_default/jhayber-mujer-trekking-zs52454-azul.jpg" alt="Imagen">
+                <p><strong>40,60 €</strong></p>
+                <p>Zapatilla J´hayber Azul 
+Marca: J´Hayber - Referen...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35336-home_default/skechers-mujer-ultra-flex-30-brilliant-path-sli-ins-149710olv-verde.jpg" alt="Imagen">
+                <p><strong>72,00 €</strong></p>
+                <p>Zapatillas Skechers Ultra Flex 3.0 Mujer Verde 149...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/28502-home_default/skechers-graceful-get-connected-mujer-12615bkrg-negras.jpg" alt="Imagen">
+                <p><strong>48,00 €</strong></p>
+                <p>Skechers Graceful Get Connected Mujer
+Tallas dispo...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32121-home_default/new-balance-unisex-blanca-u327wht-2.jpg" alt="Imagen">
+                <p><strong>99,20 €</strong></p>
+                <p>Nuevas Zapatillas New Balance 327 Unisex Blancas U...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36643-home_default/jhayber-mujer-chelapo-mujer-camel-zs61530-57.jpg" alt="Imagen">
+                <p><strong>36,00 €</strong></p>
+                <p>Zapatillas J´hayber Mujer Camel
+Marca:J´hayber Ref...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/29854-home_default/skechers-mujer-squad-glam-rosa-32502ltpk.jpg" alt="Imagen">
+                <p><strong>44,00 €</strong></p>
+                <p>SKECHERS Total Glam Sport Squad 
+Marca: SkechersRe...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32294-home_default/skechers-bountiful-mujer-12607-bkw-negra.jpg" alt="Imagen">
+                <p><strong>44,00 €</strong></p>
+                <p>Zapatillas Skechers Bountiful Quick Path Mujer Neg...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/35517-home_default/new-balance-mr530snc-mujer-blanca-y-marron.jpg" alt="Imagen">
+                <p><strong>105,60 €</strong></p>
+                <p>New Balance MR530SNC Mujer
+Marca y Referencia: New...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/24449-home_default/converse-all-star-hi-bota-m9621c-rojas.jpg" alt="Imagen">
+                <p><strong>61,50 €</strong></p>
+                <p>CONVERSE
+CONVERSE ALL STAR HI BOTA M9621C ROJAS</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/27260-home_default/new-balance-zapatilla-mujer-wl373pl2-negra.jpg" alt="Imagen">
+                <p><strong>53,90 €</strong></p>
+                <p>NEW BALANCE 373 Mujer
+Marca: New BalanceGenero: Mu...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/32146-home_default/zapatilla-converse-mujer-chuck-taylor-all-star-madison-beige-a023952c.jpg" alt="Imagen">
+                <p><strong>49,00 €</strong></p>
+                <p>Zapatillas Converse Chuck Taylor Madison para Muje...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36610-home_default/zapatilla-new-balance-mujer-w520lw9-beige.jpg" alt="Imagen">
+                <p><strong>54,00 €</strong></p>
+                <p>New Balance W520LW9 Mujer Running
+Marca:New Balanc...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/36197-home_default/vans-ward-canvas-zapatillas-mujer-vn000cx0d4c1-marron.jpg" alt="Imagen">
+                <p><strong>54,00 €</strong></p>
+                <p>Zapatillas VANS WARD Canvas Negras Mujer VN000CX0D...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/19193-home_default/converse-chuck-taylor-all-star-lift-cleam-platafotma-mujer-561680c-blancas-piel.jpg" alt="Imagen">
+                <p><strong>76,50 €</strong></p>
+                <p>CONVERSE
+Chuck Taylor All Star Lift Cleam Platafor...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/30178-home_default/skechers-skech-lite-mujer-negras149991bbk.jpg" alt="Imagen">
+                <p><strong>45,60 €</strong></p>
+                <p>Skechers Skech-Lite Mujer
+Tallas disponibles: 35-3...</p>
+            </div>
+        
+            <div class="card">
+                <img src="https://www.izapatillas.com/34013-home_default/puma-carina-street-mid-bota-mujer-392337-01-blanca.jpg" alt="Imagen">
+                <p><strong>61,60 €</strong></p>
+                <p>Puma Carina Street Mid Bota Mujer Blanca
+Genero: M...</p>
+            </div>
+        
+    </div>
+
+    <div class="mapa">
+        <h2>📍 Ubicación de la tienda </h2>
+        <iframe
+            width="600"
+            height="450"
+            style="border:0"
+            loading="lazy"
+            allowfullscreen
+            referrerpolicy="no-referrer-when-downgrade"
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.7861824925826!2d-1.8549688542362248!3d38.99737601047153!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd665fb8cd57ae37%3A0xd3c5bf1046ca48d7!2sCatedral%20de%20San%20Juan%20Bautista%20de%20Albacete!5e0!3m2!1ses!2ses!4v1739906480962!5m2!1ses!2ses"
+             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </iframe>
+    </div>
+
+</body>
+</html>
